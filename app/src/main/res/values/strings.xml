@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TDR Account Creator</string>
+    <string name="email">Email*</string>
+    <string name="password">Password*</string>
+    <string name="subjects">Subjects*</string>
+    <string name="_1s">1S</string>
+    <string name="_2l">2L</string>
+    <string name="_2sc">2Sc</string>
+    <string name="pin_code">PIN Code*</string>
+    <string name="create">Create</string>
+    <string name="pin">PIN</string>
+    <string name="error_getting_pin_code">Error getting the PIN Code, Please retry</string>
+    <string name="please_fill_all_inputs">Please fill all inputs!</string>
+    <string name="wrong_pin_code">Wrong PIN Code!</string>
+    <string name="please_wait">Please Wait...</string>
+    <string name="you_are_offline">You Are Offline!</string>
+    <string name="account_created">Account Created!</string>
+    <string name="first_name">First Name*</string>
+    <string name="last_name">Last Name*</string>
+</resources>
