@@ -12,7 +12,7 @@
     <string name="error_getting_pin_code">Error getting the PIN Code, Please retry</string>
     <string name="please_fill_all_inputs">Please fill all inputs!</string>
     <string name="wrong_pin_code">Wrong PIN Code!</string>
-    <string name="please_wait">Please Wait...</string>
+    <string name="please_wait">Please Wait…</string>
     <string name="you_are_offline">You Are Offline!</string>
     <string name="account_created">Account Created!</string>
     <string name="first_name">First Name*</string>
