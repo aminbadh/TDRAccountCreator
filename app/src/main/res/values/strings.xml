@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name" translatable="false">TDR Managers</string>
+    <string name="full_name">TDR Managers</string>
+    <string name="login">Login</string>
+    <string name="email">Email*</string>
+    <string name="password">Password*</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="fill_inputs">Please fill in the required inputs.</string>
+    <string name="logout">Logout</string>
+    <string name="app_availability">This app is only available for managers.</string>
+    <string name="current_role_false">Your current role doesn\'t allow you to use this app.</string>
+    <string name="open">Open</string>
+    <string name="create_admin">Create administrator</string>
+    <string name="create_prof">Create professor</string>
+    <string name="creating">Creating…</string>
+    <string name="create">Create</string>
+    <string name="first_name">First Name*</string>
+    <string name="last_name">Last Name*</string>
+    <string name="subject">Subject*</string>
+    <string name="_1s" translatable="false">1S (ex. 1,2)</string>
+    <string name="_2sc" translatable="false">2Sc (ex. 1,2)</string>
+    <string name="_3m" translatable="false">3M (ex. 1,2)</string>
+    <string name="_3sc" translatable="false">3Sc (ex. 1,2)</string>
+    <string name="_4l" translatable="false">4L (ex. 1,2)</string>
+    <string name="_4m" translatable="false">4M (ex. 1,2)</string>
+    <string name="_4sc" translatable="false">4Sc (ex. 1,2)</string>
+    <string name="_4t" translatable="false">4T (ex. 1,2)</string>
+    <string name="account_information">Account information</string>
+    <string name="user_s_information">User\'s information</string>
+    <string name="you_are_offline">You are offline!</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="logout_q">Logout?</string>
+    <string name="logout_info">Login data won\'t be saved!</string>
+</resources>

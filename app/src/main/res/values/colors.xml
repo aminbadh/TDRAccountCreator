@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_primary">#467BEF</color>
+    <color name="blue_primary_variant">#0050bc</color>
+    <color name="cyan_secondary">#0098bd</color>
+    <color name="cyan_secondary_variant">#4CC9F0</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dark_gray">#595959</color>
+    <color name="black_gray">#121212</color>
+    <color name="ic_launcher_background">#467BEE</color>
+    <color name="red_700">#D32F2F</color>
+</resources>

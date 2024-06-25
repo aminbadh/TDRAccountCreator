@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CreateProfessorActivity">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:descendantFocusability="beforeDescendants"
+            android:focusableInTouchMode="true">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="4dp"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/account_information"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <EditText
+                        android:id="@+id/editTextEmail"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="4dp"
+                        android:autofillHints=""
+                        android:ems="10"
+                        android:hint="@string/email"
+                        android:inputType="textEmailAddress"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+                    <EditText
+                        android:id="@+id/editTextPassword"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:autofillHints=""
+                        android:ems="10"
+                        android:hint="@string/password"
+                        android:inputType="text"
+                        app:layout_constraintEnd_toEndOf="@+id/editTextEmail"
+                        app:layout_constraintStart_toStartOf="@+id/editTextEmail"
+                        app:layout_constraintTop_toBottomOf="@+id/editTextEmail"
+                        tools:ignore="TextFields" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="4dp"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/user_s_information"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <EditText
+                        android:id="@+id/editTextNameFirst"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="4dp"
+                        android:autofillHints=""
+                        android:ems="10"
+                        android:hint="@string/first_name"
+                        android:inputType="textPersonName|textCapWords"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+                    <EditText
+                        android:id="@+id/editTextNameLast"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:autofillHints=""
+                        android:ems="10"
+                        android:hint="@string/last_name"
+                        android:inputType="textPersonName|textCapWords"
+                        app:layout_constraintEnd_toEndOf="@+id/editTextNameFirst"
+                        app:layout_constraintStart_toStartOf="@+id/editTextNameFirst"
+                        app:layout_constraintTop_toBottomOf="@+id/editTextNameFirst" />
+
+                    <EditText
+                        android:id="@+id/editTextLevel3M"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:autofillHints=""
+                        android:ems="10"
+                        android:hint="@string/_3m"
+                        android:inputType="text"
+                        app:layout_constraintEnd_toEndOf="@+id/editTextLevel2Sc"
+                        app:layout_constraintStart_toStartOf="@+id/editTextLevel2Sc"
+                        app:layout_constraintTop_toBottomOf="@+id/editTextLevel2Sc" />
+
+                    <EditText
+                        android:id="@+id/editTextLevel3Sc"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:autofillHints=""
+                        android:ems="10"
+                        android:hint="@string/_3sc"
+                        android:inputType="text"
+                        app:layout_constraintEnd_toEndOf="@+id/editTextLevel3M"
+                        app:layout_constraintStart_toStartOf="@+id/editTextLevel3M"
+                        app:layout_constraintTop_toBottomOf="@+id/editTextLevel3M" />
+
+                    <EditText
+                        android:id="@+id/editTextLevel4Sc"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:autofillHints=""
+                        android:ems="10"
+                        android:hint="@string/_4sc"
+                        android:inputType="text"
+                        app:layout_constraintEnd_toEndOf="@+id/editTextLevel4M"
+                        app:layout_constraintStart_toStartOf="@+id/editTextLevel4M"
+                        app:layout_constraintTop_toBottomOf="@+id/editTextLevel4M" />
+
+                    <EditText
+                        android:id="@+id/editTextLevel4T"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:autofillHints=""
+                        android:ems="10"
+                        android:hint="@string/_4t"
+                        android:inputType="text"
+                        app:layout_constraintEnd_toEndOf="@+id/editTextLevel4Sc"
+                        app:layout_constraintStart_toStartOf="@+id/editTextLevel4Sc"
+                        app:layout_constraintTop_toBottomOf="@+id/editTextLevel4Sc" />
+
+                    <EditText
+                        android:id="@+id/editTextLevel2Sc"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:autofillHints=""
+                        android:ems="10"
+                        android:hint="@string/_2sc"
+                        android:inputType="text"
+                        app:layout_constraintEnd_toEndOf="@+id/editTextSubject"
+                        app:layout_constraintStart_toStartOf="@+id/editTextLevel1S"
+                        app:layout_constraintTop_toBottomOf="@+id/editTextLevel1S" />
+
+                    <EditText
+                        android:id="@+id/editTextLevel4L"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:autofillHints=""
+                        android:ems="10"
+                        android:hint="@string/_4l"
+                        android:inputType="text"
+                        app:layout_constraintEnd_toEndOf="@+id/editTextLevel3Sc"
+                        app:layout_constraintStart_toStartOf="@+id/editTextLevel3Sc"
+                        app:layout_constraintTop_toBottomOf="@+id/editTextLevel3Sc" />
+
+                    <EditText
+                        android:id="@+id/editTextSubject"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:autofillHints=""
+                        android:ems="10"
+                        android:hint="@string/subject"
+                        android:inputType="textPersonName|textCapWords"
+                        app:layout_constraintEnd_toEndOf="@+id/editTextNameLast"
+                        app:layout_constraintHorizontal_bias="0.276"
+                        app:layout_constraintStart_toStartOf="@+id/editTextNameLast"
+                        app:layout_constraintTop_toBottomOf="@+id/editTextNameLast" />
+
+                    <EditText
+                        android:id="@+id/editTextLevel1S"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:autofillHints=""
+                        android:ems="10"
+                        android:hint="@string/_1s"
+                        android:inputType="text"
+                        app:layout_constraintEnd_toEndOf="@+id/editTextSubject"
+                        app:layout_constraintStart_toStartOf="@+id/editTextSubject"
+                        app:layout_constraintTop_toBottomOf="@+id/editTextSubject" />
+
+                    <EditText
+                        android:id="@+id/editTextLevel4M"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:autofillHints=""
+                        android:ems="10"
+                        android:hint="@string/_4m"
+                        android:inputType="text"
+                        app:layout_constraintEnd_toEndOf="@+id/editTextLevel4L"
+                        app:layout_constraintStart_toStartOf="@+id/editTextLevel4L"
+                        app:layout_constraintTop_toBottomOf="@+id/editTextLevel4L" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/buttonCreate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:onClick="signUp"
+                android:text="@string/create"
+                app:cornerRadius="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView3" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <TextView
+        android:id="@+id/textViewOffline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/you_are_offline"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:visibility="gone"
+        app:drawableTopCompat="@drawable/ic_offline"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
